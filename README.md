@@ -81,16 +81,3 @@ Example V-set configuration:
 - Nucleus range: `range(1, nucleus_mean × 1.1125)`  
 - Cytoplasm range: `range(1, overall_mean × 1.025)`
 
----
-
-## 📁 Project Structure
-
-├── images/               # Input hematological images
-├── masks/                # Ground truth masks
-├── results/
-│   ├── segmented/        # Output segmentations
-│   └── Results.csv       # Accuracy metrics
-├── CCA.py                # Core algorithm
-└── main.py               # Pipeline driver
-
----
