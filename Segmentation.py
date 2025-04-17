@@ -1,4 +1,4 @@
-from Lab2 import CCA1
+from CCA_8 import CCA1
 import os
 import cv2
 import numpy as np
